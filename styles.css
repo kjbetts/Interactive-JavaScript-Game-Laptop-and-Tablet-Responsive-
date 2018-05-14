@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+@media screen and (min-width: 768px){
+  body{
+    background-color: rgb(51, 54, 66);
+  }
+
+  canvas {
+    display: flex;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+  }
+
+  button {
+    display: flex;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+  }
+
+  h1{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    width: 75%;
+  }
+
+  h2 {
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: white;
+    width: 45%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  input{
+    display: flex;
+    background-color: black;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  h1{
+    width: 59%;
+  }
+
+  h2{
+    width: 58%;
+  }
+}
+
+@media screen and (min-width: 1140px){
+  h1{
+    width: 45%;
+  }
+
+  h2{
+    width: 44%;
+  }
+}
